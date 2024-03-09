@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .gradient-bg {
+        @apply bg-gradient-to-r from-[#0E1D48] via-[#081336] to-[#0D0A31]
+    }
+
+    .primary-btn {
+        @apply bg-gradient-to-r from-orange-500 via-orange-600 to-yellow-300 rounded-2xl
+    }
+
+    .secondary-btn {
+        @apply rounded-3xl bg-white bg-opacity-5 
+    }
+
+    .bg-gradient-primary {
+        @apply bg-gradient-to-tr from-[#091337] via-[#040A23]  to-[#150B3B]
+    }
+}
